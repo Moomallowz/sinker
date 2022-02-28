@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="GPL-3.0-only"
+[[mods]]
+modId="sinker"
+version="${file.jarVersion}"
+displayName="Sinker"
+logoFile="sinkerlogo.png"
+credits=""
+authors="Programmed by Moomallowz"
+description='''
+A non-intrusive fishing mod that adds some small things to improve upon Minecraft's fishing mechanic.
+'''
+[[dependencies.sinker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.sinker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.sinker]]
+    modId = "farmersdelight"
+    mandatory = false
+    versionRange = "[1.0.0,)"
+    ordering = "AFTER"
+    side = "BOTH"

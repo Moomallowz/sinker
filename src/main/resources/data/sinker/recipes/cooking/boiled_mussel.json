@@ -1,0 +1,14 @@
+
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "sinker:mussel"
+    }
+  ],
+  "result": {
+    "item": "sinker:boiled_mussel"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

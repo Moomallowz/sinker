@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "sinker:mussel"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "sinker:shucked_mussel",
+      "count": 1
+    },
+    {
+      "item": "sinker:white_pearl",
+      "chance": 0.1
+    },
+    {
+      "item": "sinker:black_pearl",
+      "chance": 0.01
+    },
+    {
+      "item": "sinker:pink_pearl",
+      "chance": 0.0025
+    }
+  ]
+}
