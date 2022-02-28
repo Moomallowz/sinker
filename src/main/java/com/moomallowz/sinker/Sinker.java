@@ -21,16 +21,15 @@ public class Sinker {
 }
 
 /*
-TO DO:
+TO DO (yeah i put my to do list in here, deal with it):
 Some kind of fishing vest?
 Potentially bring back crates/lockboxes?
 Unique junk items
-Worms and beetles as bait
+Worms as bait
 Maggots spawn when zombies die?
 Some new decorative items
 Fishing luck is influenced by time of day/weather
 Pearls brewable into luck potions
 Funny advancements/funny easter eggs
 Hook into Aquaculture
-New mussel-based food items
 */
