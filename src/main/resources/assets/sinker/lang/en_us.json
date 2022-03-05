@@ -1,9 +1,7 @@
 {
 	"item.sinker.worm": "Worm",
 	"item.sinker.mussel": "Mussel",
-	"item.sinker.white_pearl": "White Pearl",
-	"item.sinker.black_pearl": "Black Pearl",
-	"item.sinker.pink_pearl": "Pink Pearl",
+	"item.sinker.pearl": "Pearl",
 	
 	"item.sinker.fried_worm": "Fried Worm",
 	"item.sinker.shucked_mussel": "Shucked Mussel",
