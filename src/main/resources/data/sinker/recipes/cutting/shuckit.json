@@ -14,16 +14,8 @@
       "count": 1
     },
     {
-      "item": "sinker:white_pearl",
-      "chance": 0.1
-    },
-    {
-      "item": "sinker:black_pearl",
-      "chance": 0.01
-    },
-    {
-      "item": "sinker:pink_pearl",
-      "chance": 0.0025
+      "item": "sinker:pearl",
+      "chance": 0.05
     }
   ]
 }
