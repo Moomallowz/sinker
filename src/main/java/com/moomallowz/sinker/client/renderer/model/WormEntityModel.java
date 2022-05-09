@@ -33,7 +33,7 @@ public class WormEntityModel<Type extends WormEntity> extends EntityModel<Type> 
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		partdefinition.addOrReplaceChild("tail", CubeListBuilder.create().texOffs(0, 6).addBox(-1.0F, -2.0F, 2.0F, 2.0F, 2.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 24.0F, 0.0F));
+		partdefinition.addOrReplaceChild("tail", CubeListBuilder.create().texOffs(0, 6).addBox(-1.0F, -2.0F, 2.0F, 2.0F, 2.0F, 4.0F, new CubeDeformation(-0.004F)), PartPose.offset(0.0F, 24.0F, 0.0F));
 
 		partdefinition.addOrReplaceChild("middle", CubeListBuilder.create().texOffs(0, 0).addBox(-1.0F, -2.0F, -2.0F, 2.0F, 2.0F, 4.0F, new CubeDeformation(-0.002F)), PartPose.offset(0.0F, 24.0F, 0.0F));
 
@@ -45,9 +45,8 @@ public class WormEntityModel<Type extends WormEntity> extends EntityModel<Type> 
 	@Override
 	public void setupAnim(Type entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
         if (entity.isAlive()) {
-            this.tail.z = Mth.sin(limbSwing * 1.5F) * 2.0F * limbSwingAmount - 0.5F;
-            this.middle.y = Mth.sin(limbSwing * 1.5F) * 2.0F * limbSwingAmount + 23.5F;
-            this.head.z = Mth.sin(limbSwing * -1.5F) * 2.0F * limbSwingAmount + 0.5F;
+            this.tail.z = Mth.sin(limbSwing * 1.5F) * 2.0F * limbSwingAmount - 2.0F;
+            this.head.z = Mth.sin(limbSwing * -1.5F) * 2.0F * limbSwingAmount + 2.0F;
         }
     }
 

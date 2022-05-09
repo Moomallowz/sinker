@@ -34,7 +34,7 @@ public class WormEntity extends Animal{
 	   }
 	   
 	   public static AttributeSupplier.Builder createAttributes() {
-		   return Mob.createMobAttributes().add(Attributes.MAX_HEALTH, 2.0D).add(Attributes.MOVEMENT_SPEED, 0.15D);
+		   return Mob.createMobAttributes().add(Attributes.MAX_HEALTH, 1.0D).add(Attributes.MOVEMENT_SPEED, 0.15D);
 	   }
 
 	   @Override
@@ -55,7 +55,7 @@ public class WormEntity extends Animal{
 	   }
 	   
 	   public static boolean canSpawn(EntityType<WormEntity> entity, LevelAccessor levelAccess, MobSpawnType spawnType, BlockPos pos, Random random) {
-		   return Animal.checkAnimalSpawnRules(entity, levelAccess, spawnType, pos, random) && pos.getY() > 45 && levelAccess instanceof Level level && level.isRaining() || levelAccess instanceof Level level && level.isThundering();
+		   return Animal.checkAnimalSpawnRules(entity, levelAccess, spawnType, pos, random) && pos.getY() > 45 && levelAccess instanceof Level level && level.isRaining();
 	   }
 	   
 

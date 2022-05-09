@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate-perspective",
+  "textures": {
+    "layer0": "sinker:item/anchor_gui"
+  },
+  "base": {
+    "parent": "sinker:item/anchor_hand"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "sinker:item/anchor_gui"
+    },
+    "fixed": {
+      "parent": "sinker:item/anchor_gui"
+    }
+  }
+}

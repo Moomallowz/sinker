@@ -8,7 +8,13 @@
 	"item.sinker.boiled_mussel": "Boiled Mussel",
 	"item.sinker.clam_chowder": "Clam Chowder",
 	
+	"item.sinker.anchor": "Anchor",
+	"item.sinker.fishing_vest": "Fishing Vest",
+	
 	"entity.sinker.worm": "Worm",
 	
-	"item.sinker.worm_spawn_egg": "Worm Spawn Egg"
+	"item.sinker.worm_spawn_egg": "Worm Spawn Egg",
+	
+	"advancements.husbandry.pearlobtained.title": "Mother Shucker",
+	"advancements.husbandry.pearlobtained.description": "Recover the elusive Pearl from a certain bivalve mollusk"
 }

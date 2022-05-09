@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "sinker:items/shucked_mussel"
+		"layer0": "sinker:item/shucked_mussel"
 	}
 }

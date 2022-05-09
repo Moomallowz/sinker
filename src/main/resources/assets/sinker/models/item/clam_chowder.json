@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "sinker:items/clam_chowder"
+		"layer0": "sinker:item/clam_chowder"
 	}
 }

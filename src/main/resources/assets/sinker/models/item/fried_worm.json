@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "sinker:items/fried_worm"
+		"layer0": "sinker:item/fried_worm"
 	}
 }

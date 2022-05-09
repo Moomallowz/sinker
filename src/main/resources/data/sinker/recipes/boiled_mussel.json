@@ -1,0 +1,10 @@
+
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "sinker:shucked_mussel"
+  },
+  "result": "sinker:boiled_mussel",
+  "experience": 0.35,
+  "cookingtime": 600
+}
